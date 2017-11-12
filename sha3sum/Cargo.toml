@@ -1,0 +1,11 @@
+[package]
+name = "sha3sum"
+version = "0.0.1"
+authors = ["tradem <tradem@postpoeia.name>"]
+
+[dependencies]
+byte-tools = "0.1"
+sha3 = "0.6.0"
+pbr = "1.0.0"
+number_prefix = "0.2.7"
+stopwatch = { git = "https://github.com/ellisonch/rust-stopwatch.git" }
